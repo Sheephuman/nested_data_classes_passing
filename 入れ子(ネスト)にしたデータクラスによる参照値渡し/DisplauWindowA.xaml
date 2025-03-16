@@ -1,0 +1,32 @@
+﻿<Window x:Class="入れ子_ネスト_にしたデータクラスによる参照値渡し.DisplayWindowA"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:入れ子_ネスト_にしたデータクラスによる参照値渡し"
+        mc:Ignorable="d"
+        Title="DisplauWindowA" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel>
+            <!-- IsEnabled をトグルするボタン -->
+            <Button Name="btnToggleIsEnabled" Content="Toggle IsEnabled" Click="btnToggleIsEnabled_Click" Margin="10" />
+
+            <!-- IsVisible をトグルするボタン -->
+            <Button Name="btnToggleIsVisible" Content="Toggle IsVisible" Click="btnToggleIsVisible_Click" Margin="10" />
+
+            <!-- WindowState (Maximize) をトグルするボタン -->
+            <Button Name="btnToggleWindowState" Content="Toggle Maximize" Click="btnToggleWindowState_Click" Margin="10" />
+
+            <!-- Topmost をトグルするボタン -->
+            <Button Name="btnToggleTopmost" Content="Toggle Topmost" Click="btnToggleTopmost_Click" Margin="10" />
+
+            <StackPanel>
+                <!-- ボタンを3つ作成 -->
+                <Button Content="Red" Width="100" Height="40" Click="RedButton_Click"/>
+                <Button Content="Green" Width="100" Height="40" Click="GreenButton_Click"/>
+                <Button Content="Blue" Width="100" Height="40" Click="AliceBlueButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

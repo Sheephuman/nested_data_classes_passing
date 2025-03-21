@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:入れ子_ネスト_にしたデータクラスによる参照値渡し"
         mc:Ignorable="d"
-        Title="DisplauWindowB" Height="450" Width="800">
+        Title="DisplayWindowB" Height="450" Width="800">
     <Grid>
         <StackPanel>
             <!-- テキストボックスで新しいタイトルを入力 -->
